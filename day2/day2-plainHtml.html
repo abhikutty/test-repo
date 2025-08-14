@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Day 2 — Counter (Pass 1: HTML)</title>
+</head>
+<body>
+  <main>
+    <h1>Day 2 — Counter</h1>
+
+    <div id="value" aria-live="polite">0</div>
+
+    <div>
+      <button id="decBtn" aria-label="Decrease">−</button>
+      <button id="incBtn" aria-label="Increase">+</button>
+      <button id="resetBtn" aria-label="Reset">Reset</button>
+    </div>
+
+    <div aria-label="Step controls">
+      <label for="step">Step</label>
+      <input id="step" type="number" min="1" value="1" />
+      <button id="applyStep">Apply</button>
+    </div>
+  </main>
+</body>
+</html>
